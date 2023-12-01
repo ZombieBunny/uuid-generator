@@ -11,7 +11,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with registerComman
-	let disposable = vscode.commands.registerCommand('extension.uuid-generator-activate', () => {
+	let disposable = vscode.commands.registerCommand('extension.uuid-generate', () => {
 		const editor = vscode.window.activeTextEditor;		
 		if (!editor) return;
 		

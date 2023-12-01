@@ -11,19 +11,19 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.uuid-generator-activate"
+		"onCommand:extension.uuid-generate"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.uuid-generator-activate",
-				"title": "Hello World"
+				"command": "extension.uuid-generate",
+				"title": "Geneerate a uuid"
 			}
 		],
 		"keybindings": [
 			{
-				"command": "extension.uuid-generator-activate",
+				"command": "extension.uuid-generate",
 				"key": "ctrl+alt+O",
 				"mac": "cmd+shift+O"
 			}
